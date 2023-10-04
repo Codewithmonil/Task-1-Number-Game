@@ -29,13 +29,13 @@ public class NumberGame {
                                                                                                                                                     System.out.println("Try a lower number.");
                                                                                                                                                                     }
                 if (attempts == numberOfAttempts) {
-                                    System.out.println("You've run out of attempts. The correct number was: " + targetNumber);
+ System.out.println("You've run out of attempts. The correct number was: " + targetNumber);
                                                     }
                                                                 }
-            System.out.print("Do you want to play again? (yes/no): ");
+  System.out.print("Do you want to play again? (yes/no): ");
                         String playAgainResponse = scanner.next();
                                     playAgain = playAgainResponse.equalsIgnoreCase("yes");
                                             }
-        System.out.println("Thank you for playing! Your total score is: " + score);
+  System.out.println("Thank you for playing! Your total score is: " + score);
             }
             }
