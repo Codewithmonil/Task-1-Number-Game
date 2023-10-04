@@ -19,11 +19,13 @@ public class NumberGame {
                                             int userGuess = scanner.nextInt();
                 if (userGuess == targetNumber) {
                                     System.out.println("Congratulations! You guessed the correct number: " + targetNumber);
-                                                        score++;
-                                                                            break;
-                                                                                            } else if (userGuess < targetNumber) {
+                    score++;
+     break;
+     } 
+     else if (userGuess < targetNumber) {
                                                                                                                 System.out.println("Try a higher number.");
-                                                                                                                                } else {
+                                                                                                                                } 
+                                                                                                                                else {
                                                                                                                                                     System.out.println("Try a lower number.");
                                                                                                                                                                     }
                 if (attempts == numberOfAttempts) {
